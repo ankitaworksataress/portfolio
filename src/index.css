@@ -29,8 +29,7 @@ body {
   font-family: var(--font-sans);
   background: var(--bg);
   color: var(--ink);
-  overflow-x: hidden;
-  overflow-y: auto;
+  overflow: hidden;
   cursor: none;
 }
 
@@ -131,7 +130,7 @@ a {
   left: clamp(1.25rem, 4vw, 3.5rem);
   bottom: clamp(1.5rem, 5vh, 3.5rem);
   z-index: 20;
-  max-width: 350px;
+  max-width: 390px;
   pointer-events: none;
 }
 
